@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<title>Dashboard</title>
+
+<body>
+    <h1>UDOT Performance Dashboard</h1>
+
+    <div id="charts">
+        <!--Control Room: Incidents by severity chart-->
+        <iframe id="incidents_by_severity_chart" width="592.4944690265487" height="444.188351920694" seamless frameborder="0" scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE1AjxMUtvvGVrpEMJsVcilBXulXaJVbCxq4Cb4PhOnwrpzCnLAQDLHymU5a--9_R5t-JitTvFPEAb/pubchart?oid=2119814357&amp;format=interactive"></iframe>
+        <!--Control Room: Crash duration by type chart-->
+        <iframe id="crash_duration_by_type_chart" width="592.4944690265487" height="444.188351920694" seamless frameborder="0" scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE1AjxMUtvvGVrpEMJsVcilBXulXaJVbCxq4Cb4PhOnwrpzCnLAQDLHymU5a--9_R5t-JitTvFPEAb/pubchart?oid=540829802&amp;format=interactive"></iframe>
+        <div id="programmatic_dashboard_div_1" class="dashboard">
+            <div id="control_filter_1" class="control_filter"></div>
+            <div id="dynamic_chart_1" class="dynamic_chart"></div>
+        </div>
+        <div id="programmatic_dashboard_div_2" class="dashboard">
+            <div id="control_filter_2" class="control_filter"></div>
+            <div id="dynamic_chart_2" class="dynamic_chart"></div>
+        </div>
+        <div id="programmatic_dashboard_div_3" class="dashboard">
+            <div id="control_filter_3" class="control_filter"></div>
+            <div id="dynamic_chart_3" class="dynamic_chart"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
